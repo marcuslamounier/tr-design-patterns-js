@@ -15,12 +15,7 @@ class SingleValue {
   }
 }
 
-class ManyValues extends Array {
-  constructor() {
-    super();
-  }
-    // ensure there's a push(value) method
-}
+class ManyValues extends Array {}
 
 let sum = function(containers){
   // todo
